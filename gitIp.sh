@@ -1,5 +1,5 @@
 #!/bin/bash 
-ip=$(curl -s http://ipv4.icanhazip.com)
+ip=$(curl -s myip.ipip.net)
 echo $ip
 echo "$ip" > /root/ip/ip.txt
 git add /root/ip
